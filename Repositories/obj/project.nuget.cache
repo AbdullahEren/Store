@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bUdMijzXZClJ2KAxczcvTVC2A1W4U1RErWX+wwjFLL322eMhX22sLEKAP4MGBvPY9fwuSSUqVWZo6Zk20OXS9A==",
+  "dgSpecHash": "NGLBYGKzTPs2B6dobjGUTyWVQiy+4cj6BL84Vp+VR+aIKfkrijAegraJAlbBync0WEfc2vrxUtAWJsvERfe7wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj",
+  "projectFilePath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aeyur\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
     "C:\\Users\\aeyur\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",

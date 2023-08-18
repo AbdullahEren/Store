@@ -9,9 +9,6 @@ namespace Repositories
         {
 
         }
-        public IQueryable<ProductRepository> GetAllProducts(bool trackChanges) => FindAll(trackChanges);
-        {
-            throw new NotImplementedException();
-        }
+        public IQueryable<Product> GetAllProducts(bool trackChanges) => FindAll(trackChanges);
     }
 }
