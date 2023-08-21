@@ -572,6 +572,20 @@
         "runtime": {
           "bin/placeholder/Repositories.dll": {}
         }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Repositories": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
       }
     }
   },
@@ -1286,13 +1300,19 @@
       "type": "project",
       "path": "../Repositories/Repositories.csproj",
       "msbuildProject": "../Repositories/Repositories.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
-      "Repositories >= 1.0.0"
+      "Repositories >= 1.0.0",
+      "Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1301,11 +1321,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\StoreApp\\StoreApp.csproj",
+      "projectUniqueName": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\StoreApp\\StoreApp.csproj",
       "projectName": "StoreApp",
-      "projectPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\StoreApp\\StoreApp.csproj",
+      "projectPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\StoreApp\\StoreApp.csproj",
       "packagesPath": "C:\\Users\\aeyur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\StoreApp\\obj\\",
+      "outputPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\StoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aeyur\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1320,11 +1340,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Entities\\Entities.csproj"
+            "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Entities\\Entities.csproj"
             },
             "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj": {
               "projectPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj"
+            },
+            "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj"
             }
           }
         }
