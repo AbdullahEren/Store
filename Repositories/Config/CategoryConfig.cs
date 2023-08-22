@@ -1,0 +1,19 @@
+using Entities.Models;
+using Microsoft.EntityFrameworkCore;
+using Repositories.Contracts;
+
+namespace Repositories.Config
+{
+    public class CategoryConfig : IEntityTypeConfiguration<Category>
+    {
+        public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Category> builder)
+        {
+            builder.HasKey(c => c.CategoryId);
+            builder.Property(c => c.CategoryName).IsRequired();
+            builder.HasData(
+                new Category(){CategoryId=1, CategoryName="Book"},
+                new Category(){CategoryId=2, CategoryName="Electronics"}
+            );
+        }
+    }
+}
