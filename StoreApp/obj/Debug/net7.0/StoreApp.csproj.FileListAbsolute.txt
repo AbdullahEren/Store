@@ -70,3 +70,5 @@ C:\Users\aeyur\OneDrive\Masaüstü\MVC\Store\StoreApp\bin\Debug\net7.0\Repositor
 C:\Users\aeyur\OneDrive\Masaüstü\MVC\Store\StoreApp\bin\Debug\net7.0\Repositories.pdb
 C:\Users\aeyur\Onedrive\Masaüstü\MVC\Store\StoreApp\bin\Debug\net7.0\Services.dll
 C:\Users\aeyur\Onedrive\Masaüstü\MVC\Store\StoreApp\bin\Debug\net7.0\Services.pdb
+C:\Users\aeyur\OneDrive\Masaüstü\MVC\Store\StoreApp\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\aeyur\OneDrive\Masaüstü\MVC\Store\StoreApp\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
