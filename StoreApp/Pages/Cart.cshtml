@@ -4,7 +4,7 @@
     <div class="text-center display-6 my-5">
         Cart
     </div>
-    <table class="table table-hover">
+    <table class="">
         <thead>
             <tr>
                 <th>Product</th>
@@ -46,8 +46,8 @@
     </table>
     <div class="text-center my-3">
         <div class="btn-group">
-            <a class="btn btn-primary" href="@Model?.ReturnUrl">Continue Shopping</a>
-            <a class="btn bt-primary mx-2" asp-action="Checkout" asp-controller="Order">Checkout</a>
+            <a class="btn btn-secondary" href="@Model?.ReturnUrl">Continue Shopping</a>
+            <a class="btn btn-outline-secondary " asp-action="Checkout" asp-controller="Order">Checkout</a>
         </div>
     </div>
 </div>
