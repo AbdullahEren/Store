@@ -19269,6 +19269,44 @@
         }
       },
       {
+        "HashCode": 173895298,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ShowcaseViewComponentTagHelper",
+        "AssemblyName": "StoreApp",
+        "DisplayName": "ShowcaseViewComponentTagHelper",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:showcase",
+            "CaseSensitive": false
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "__Generated__ShowcaseViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Showcase",
+          "Runtime.Name": "ITagHelper"
+        }
+      },
+      {
+        "HashCode": -518534485,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ProductFilterMenuViewComponentTagHelper",
+        "AssemblyName": "StoreApp",
+        "DisplayName": "ProductFilterMenuViewComponentTagHelper",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:product-filter-menu",
+            "CaseSensitive": false
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "__Generated__ProductFilterMenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ProductFilterMenu",
+          "Runtime.Name": "ITagHelper"
+        }
+      },
+      {
         "HashCode": 1909767776,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -24204,11 +24242,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\StoreApp\\Views\\Product\\_ProductCard.cshtml",
-      "TargetPath": "Views\\Product\\_ProductCard.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\StoreApp\\Views\\Shared\\Components\\CategoriesMenu\\Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\CategoriesMenu\\Default.cshtml",
       "FileKind": "mvc"
@@ -24231,6 +24264,21 @@
     {
       "FilePath": "c:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\StoreApp\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\StoreApp\\Views\\Shared\\Components\\Showcase\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Showcase\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\StoreApp\\Views\\Shared\\_ProductCard.cshtml",
+      "TargetPath": "Views\\Shared\\_ProductCard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\StoreApp\\Views\\Shared\\Components\\ProductFilterMenu\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\ProductFilterMenu\\Default.cshtml",
       "FileKind": "mvc"
     }
   ]
