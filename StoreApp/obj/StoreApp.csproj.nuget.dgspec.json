@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj",
+        "projectPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\aeyur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Repositories\\obj\\",
+        "outputPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aeyur\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -124,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj": {
+    "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\aeyur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Services\\obj\\",
+        "outputPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aeyur\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -149,8 +155,8 @@
               "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj"
+              "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -215,11 +221,11 @@
               "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj"
+              "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Repositories\\Repositories.csproj"
               },
-              "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj"
+              "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\aeyur\\Onedrive\\Masaüstü\\MVC\\Store\\Services\\Services.csproj"
               }
             }
           }

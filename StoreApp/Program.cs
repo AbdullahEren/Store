@@ -1,5 +1,5 @@
-using Infrastructe.Extensions;
-using StoreApp.Infrastructe.Extensions;
+using Infrastructure.Extensions;
+using StoreApp.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +7,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
 builder.Services.ConfigureDbContext(builder.Configuration);
+builder.Services.ConfigureIdentity();
 builder.Services.ConfigurationSession();
 builder.Services.ConfigureRepositoryRegistiration();
 builder.Services.ConfigureServiceRegistiration();
@@ -33,5 +34,6 @@ app.UseEndpoints(endpoints =>
 });
 app.ConfigureAndCheckMigration();
 app.ConfigureLocalization();
+app.ConfigureDefaultAdminUser();
 
 app.Run();
