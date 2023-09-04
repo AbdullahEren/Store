@@ -16575,6 +16575,45 @@
         }
       },
       {
+        "HashCode": -1344143057,
+        "Kind": "ITagHelper",
+        "Name": "StoreApp.Infrastructure.TagHelpers.UserRoleTagHelper",
+        "AssemblyName": "StoreApp",
+        "DisplayName": "StoreApp.Infrastructure.TagHelpers.UserRoleTagHelper",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "td",
+            "CaseSensitive": false,
+            "Attributes": [
+              {
+                "Name": "user-role",
+                "CaseSensitive": false,
+                "DisplayName": "user-role"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "user-name",
+            "TypeName": "System.String",
+            "DisplayName": "string StoreApp.Infrastructure.TagHelpers.UserRoleTagHelper.UserName",
+            "CaseSensitive": false,
+            "Metadata": {
+              "Common.PropertyName": "UserName"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "StoreApp.Infrastructure.TagHelpers.UserRoleTagHelper",
+          "Common.TypeNameIdentifier": "UserRoleTagHelper",
+          "Common.TypeNamespace": "StoreApp.Infrastructure.TagHelpers",
+          "Runtime.Name": "ITagHelper"
+        }
+      },
+      {
         "HashCode": -472737327,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
@@ -24472,6 +24511,11 @@
     {
       "FilePath": "c:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\StoreApp\\Areas\\Admin\\Views\\User\\ResetPassword.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\User\\ResetPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\aeyur\\OneDrive\\Masaüstü\\MVC\\Store\\StoreApp\\Views\\Account\\AccessDenied.cshtml",
+      "TargetPath": "Views\\Account\\AccessDenied.cshtml",
       "FileKind": "mvc"
     }
   ]
