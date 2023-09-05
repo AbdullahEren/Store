@@ -13,11 +13,11 @@ namespace Infrastructure.Extensions
 {
     public static class ServiceExtension
     {
-        public static void ConfigureDbContext(this IServiceCollection services,     IConfiguration configuration)
+        public static void ConfigureDbContext(this IServiceCollection services,IConfiguration configuration)
         {
             services.AddDbContext<RepositoryContext>(options => 
             {
-                options.UseSqlite(configuration.GetConnectionString("sqlconnection"),
+                options.UseSqlServer(configuration.GetConnectionString("mssqlconnection"),
                     b => b.MigrationsAssembly("StoreApp"));
                 options.EnableSensitiveDataLogging(true);
             });
